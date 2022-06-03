@@ -1,14 +1,4 @@
-// First example of parameteric model
-//   
-//    syntax: 
-//        //Description
-//        variable=value; //Parameter
-//        
-//        This type of comment tells the name of group to which parameters below
-//        this comment will belong 
-//    
-//       /*[ group name ]*/ 
-//
+
 use <./rpi3b+.scad>
 use <lib/boxes.scad>;
 use <lib/screw.scad>;
