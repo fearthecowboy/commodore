@@ -12,8 +12,8 @@ use <usbports.scad>;
 use <./lib/threads_v2p1.scad>
 use <./mini-display.scad>
 
-$fa = 3;
-$fs = 0.3;
+$fa = 6;
+$fs = 0.25;
 
 x=20.7;
 y=11.7;
@@ -230,7 +230,7 @@ module top_case() {
 
 }
 // show top case 
- translate([CASE_WIDTH+5, 5, CASE_HEIGHT]) rotate([0, 180, 0]) top_case();
+  translate([CASE_WIDTH+5, 5, CASE_HEIGHT]) rotate([0, 180, 0]) top_case();
 
 // % translate([-MUCH_BIGGER, 5, 0]) top_case();
 // show bottom case 
